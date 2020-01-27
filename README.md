@@ -1,0 +1,2 @@
+# GtkEx1Splash
+ExampleGtkSplash
