@@ -68,7 +68,7 @@ int Show_Splash_Screen(char* image_name,int time,int width,int height)
     /* make sure that everything, window and label, are visible */
     gtk_widget_show_all (window);
 
-    /* start the main loop, and let it rest there until the application is closed */
+    /* start the mai loop, and let it rest there until the application is closed */
     gtk_main ();
 
     return 0;
