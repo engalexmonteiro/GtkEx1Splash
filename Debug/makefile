@@ -29,7 +29,7 @@ all: GtkEx1Splash
 GtkEx1Splash: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc  -o "GtkEx1Splash" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc  -o "GtkEx1Splash" $(OBJS) $(USER_OBJS) $(LIBS) `pkg-config --cflags --libs gtk+-2.0`
 	@echo 'Finished building target: $@'
 	@echo ' '
 
